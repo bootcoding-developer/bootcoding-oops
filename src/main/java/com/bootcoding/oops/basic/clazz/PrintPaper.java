@@ -1,11 +1,22 @@
 package com.bootcoding.oops.basic.clazz;
 
 public class PrintPaper {
+  // Data Member
   String  type;
   int size;
   String  color;
   String  brand;
   double  price;
+
+  // behaviour
+  // Member Methods
+  public void tearPaper(int pieces){
+    System.out.println("I have tore paper into " + pieces + " pieces");
+  }
+
+  public void throwPaper(){
+    System.out.println("Paper fekla ka.... Arrr!");
+  }
 
   public static void main(String[] args) {
     PrintPaper pp  = new PrintPaper();
@@ -18,5 +29,7 @@ public class PrintPaper {
     System.out.println("pp.brand = "+ pp.brand);
     System.out.println("pp.price = "+ pp.price);
     System.out.println("pp.color = "+ pp.color);
+    pp.tearPaper(4);
+    pp.throwPaper();
   }
 }

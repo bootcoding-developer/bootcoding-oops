@@ -12,6 +12,16 @@ public class Switch {
     boolean powerSocket;
     String type;
 
+    public void start(){
+        System.out.println("Switch is ON");
+    }
+    public void checkStatus(){
+        System.out.println("Switch is OFF");
+    }
+    public void stop(){
+        System.out.println("Switch is OFF");
+    }
+
     public static void main(String[] args) {
         Switch sw = new Switch();
         sw.color = "White";
@@ -29,5 +39,9 @@ public class Switch {
         System.out.println("sw.powerSocket = " + sw.powerSocket);
         System.out.println("sw.material = " + sw.material);
         System.out.println("sw.type = " + sw.type);
+
+        sw.stop();
+        sw.checkStatus();
+        sw.start();
     }
 }
