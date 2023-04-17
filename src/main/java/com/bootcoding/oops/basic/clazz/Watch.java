@@ -35,5 +35,9 @@ public class Watch {
 
         System.out.println(" w2.color  = " + w2.color);
         System.out.println(" w1.color  = " + w1.color);
+        System.out.println(" w1.brand  = " + w1.brand);
+        System.out.println(" w1.price  = " + w1.price);
+        System.out.println(" w1.shape  = " + w1.shape);
+        System.out.println(" w1.type  = " + w1.type);
     }
 }
