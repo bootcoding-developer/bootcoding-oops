@@ -13,6 +13,7 @@ public class Watch {
 
     public void isWorking(){
         System.out.println("No. Cell lekar aaoo!");
+        // exception.
     }
     public void changeTime(){
         System.out.println("Changed Time of Watch!...");
