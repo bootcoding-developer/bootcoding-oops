@@ -1,4 +1,4 @@
-package com.bootcoding.oops.encapsulation.patient;
+package com.bootcoding.oops.encapsulation.hospital;
 
 import java.util.Date;
 

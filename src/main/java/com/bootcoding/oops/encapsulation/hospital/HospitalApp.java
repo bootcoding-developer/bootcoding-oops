@@ -1,7 +1,4 @@
-package com.bootcoding.oops.encapsulation;
-
-import com.bootcoding.oops.encapsulation.hospital.Hospital;
-import com.bootcoding.oops.encapsulation.patient.Patient;
+package com.bootcoding.oops.encapsulation.hospital;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -9,7 +6,6 @@ import java.util.UUID;
 
 public class HospitalApp {
     public static void main(String[] args) {
-
         Patient ramesh = new Patient();
         ramesh.name = "Suresh";
         ramesh.dateOfAdmission = new Date();

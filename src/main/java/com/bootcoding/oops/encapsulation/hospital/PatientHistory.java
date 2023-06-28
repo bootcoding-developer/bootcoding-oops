@@ -1,4 +1,4 @@
-package com.bootcoding.oops.encapsulation.patient;
+package com.bootcoding.oops.encapsulation.hospital;
 
 public class PatientHistory {
 
