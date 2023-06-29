@@ -1,5 +1,4 @@
-package com.bootcoding.oops.service.factorial;servicepackage com.bootcoding.java.service.factorial;
-
+package com.bootcoding.oops.service.factorial;
 public class PrintService {
 
     public void printArray(long[] nums){

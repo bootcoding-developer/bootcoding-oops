@@ -1,6 +1,7 @@
 package com.bootcoding.oops.inheritance.furniture;
 
-import com.bootcoding.java.inheritance.furniture.test.Table;
+
+import com.bootcoding.oops.inheritance.furniture.test.Table;
 
 public class ComputerTable extends Table {
 

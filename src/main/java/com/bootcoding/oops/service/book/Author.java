@@ -1,4 +1,4 @@
-package com.bootcoding.oops.book;
+package com.bootcoding.oops.service.book;
 
 public class Author {
     private int age;
