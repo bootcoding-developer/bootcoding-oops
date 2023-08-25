@@ -1,8 +1,6 @@
-package com.bootcoding.oops.basic.object;
+package com.bootcoding.oops.basic.object.book;
 
-import com.bootcoding.oops.basic.object.book.Book;
-
-public class Remote {
+public class DigitalBook {
 
     String brand;
     String color;
@@ -11,11 +9,12 @@ public class Remote {
         System.out.println("Color:"+ color);
         System.out.println("Brand:"+ brand);
         System.out.println("Price:"+ price);
-    }
-    public Remote(){
 
     }
-    public Remote(String brand, String color, double price){
+    public DigitalBook(){
+
+    }
+    public DigitalBook(String brand, String color, double price){
         this.brand = brand;
         this.color = color;
         this.price = price;
@@ -40,7 +39,7 @@ public class Remote {
     }
 
     private static void createRemote(String color, double price) {
-        Remote r = new Remote();
+        DigitalBook r = new DigitalBook();
         r.color = color;
         r.price = price;
         r.brand = "Samsung";

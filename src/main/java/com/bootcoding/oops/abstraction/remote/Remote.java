@@ -1,4 +1,4 @@
-package com.bootcoding.oops.basic;
+package com.bootcoding.oops.abstraction.remote;
 
 public abstract class Remote {
     public abstract void start();

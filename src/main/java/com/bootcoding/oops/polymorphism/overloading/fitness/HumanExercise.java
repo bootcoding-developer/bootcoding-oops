@@ -17,7 +17,7 @@ public class HumanExercise {
     }
 
     public void run(int mon, double f, float d){
-
+///
     }
 
     public void run(float mon, double f, int d){

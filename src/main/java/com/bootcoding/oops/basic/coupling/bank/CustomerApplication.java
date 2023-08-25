@@ -1,10 +1,15 @@
 package com.bootcoding.oops.basic.coupling.bank;
 
+import com.bootcoding.oops.basic.object.book.Book;
+
 import java.util.Random;
 
 public class CustomerApplication {
 
     public static void main(String[] args) {
+
+
+        Book b = new Book();
         BankAccount bankAccount = new BankAccount();
         bankAccount.accountId = generateAccountNumber();
         bankAccount.balance = 10000.00;

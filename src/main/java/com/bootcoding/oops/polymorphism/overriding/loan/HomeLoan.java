@@ -6,4 +6,8 @@ public class HomeLoan extends BaseLoan{
         System.out.println("Child method Invoked");
         return 9.5;
     }
+
+    // Child            - Parent
+    // SubClass         - SuperClass
+    // Derived CLass    - Base Class
 }
